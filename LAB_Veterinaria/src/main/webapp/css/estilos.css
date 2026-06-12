@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    color: #333;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-success {
+    background-color: #28a745;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+}
+
+.filtro-form {
+    margin: 15px 0;
+}
+
+.tabla-mascotas {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.tabla-mascotas th, .tabla-mascotas td {
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+.tabla-mascotas th {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.form-mascota {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-mascota label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.form-mascota input,
+.form-mascota select {
+    padding: 6px;
+    margin-top: 4px;
+}
+
+.acciones {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
